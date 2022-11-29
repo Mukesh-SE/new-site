@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=MonteCarlo&family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Lobster+Two:ital,wght@0,700;1,400;1,700&family=Playball&display=swap');
+
+*{
+   margin: 0;
+}
+body{
+   color: #008B74;
+   text-align: center;
+   margin: 0;
+   line-height: 1.75rem;
+}
+hr{
+   margin: 1.5rem 0;
+}
+.top{
+   background: #E4F3FA;
+   position: relative;
+   padding-top: 100px;
+
+   font-family: 'Lobster Two', cursive;
+   font-size: 1.2rem;
+   line-height: 2rem;
+   letter-spacing: 1.5px;
+   word-spacing: 2px;
+}
+.top img{
+   position: relative;
+   top: 5px;
+}
+.middle{
+   background-color: #CFFDE1;
+   font-size: 1.2rem;
+   font-family: 'Courgette', cursive;
+   line-height: 2rem;
+}
+
+.middle img{
+   width: 250px;
+   height: 250px;
+   
+}
+.middle p{
+   margin-bottom: 20px;
+}
+
+.bottom{
+   background: #CFFDE1;
+}
+h1{
+   font-family:  sans-serif;
+   text-transform: uppercase;
+}
+h2, h3{
+   text-transform: capitalize;
+   text-shadow: 0 1rem 2rem rgba(17, 122, 27, 0.22);
+}
